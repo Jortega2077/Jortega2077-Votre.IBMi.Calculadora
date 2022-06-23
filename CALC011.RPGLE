@@ -11,6 +11,11 @@
      DP2                             11  2
      DP3                             11  2
 
+     DMulti            Pr                  Extproc('PGMMUL')
+     DP1                             11  2
+     DP2                             11  2
+     DP3                             11  2
+
      DRdo              s             11  2 Inz
      DVerbo            s             11    Inz
 
@@ -24,6 +29,9 @@
          When Op = '-';
           Resta(Op1:Op2:Rdo);
           Verbo = 'Menos';
+         When Op = '*';
+          Multi(Op1:Op2:Rdo);
+          Verbo = 'Multi';
         Endsl;
         If Rdo <> *Zeros;
          Rs = %Trim(%Editc(Op1:'J')) + ' ' + %Trim(Verbo) + ' ' +
