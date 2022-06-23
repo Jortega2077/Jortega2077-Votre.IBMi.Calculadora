@@ -11,7 +11,7 @@
      DP2                             11  2
      DP3                             11  2
 
-     DResta            Pr                  Extproc('PGMMUL')
+     DMulti            Pr                  Extproc('PGMMUL')
      DP1                             11  2
      DP2                             11  2
      DP3                             11  2
@@ -30,7 +30,7 @@
           Resta(Op1:Op2:Rdo);
           Verbo = 'Menos';
          When Op = '*';
-          Resta(Op1:Op2:Rdo);
+          Multi(Op1:Op2:Rdo);
           Verbo = 'Multi';
         Endsl;
         If Rdo <> *Zeros;
