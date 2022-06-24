@@ -6,7 +6,7 @@
        // se realiza el primer cambio
        Rs = P1 + P2;
        *Inlr = *On;
-       // se realiza el segundo cambio
+       // se realiza el segundo cambio numeros validos
        Return;
       /End-Free
 
