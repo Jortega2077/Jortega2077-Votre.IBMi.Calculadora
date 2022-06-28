@@ -3,6 +3,7 @@
      DRs               s             11  2
 
       /Free
+       // se modifica la resta
        Rs = P1 - P2;
        *Inlr = *On;
        Return;
