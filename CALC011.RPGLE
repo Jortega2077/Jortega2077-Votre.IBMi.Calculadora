@@ -44,6 +44,7 @@
          Clear Rdato2;
         Endif;
        Enddo;
+// Cambio Realizado
         // Cambio Realizado
        *Inlr = *On;
 
